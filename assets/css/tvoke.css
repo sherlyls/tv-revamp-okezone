@@ -19,7 +19,7 @@
     src: url(../font/Poppins.ttf);
   }
 
-#wp-tv header {
+#header-revamp-tv {
     background-color: #0F0D1E;
     height: 56px;
     width: 100%;
@@ -28,14 +28,14 @@
     padding: 16px;
 }
 
-#wp-tv .logo-oketv {
+#header-revamp-tv .logo-oketv {
     background-image: url("../img/logotv.svg");
     height: 100%;
     width: 112px;
     background-repeat: no-repeat;
 }
 
-#wp-tv .burger-tv {
+#header-revamp-tv .burger-tv {
     background-image: url("../img/burger-tv.svg");
     height: 100%;
     width: 20px;
@@ -190,3 +190,6 @@
     line-height: 15px;
     padding-bottom: 24px;
 }
+
+/* detail video */
+
