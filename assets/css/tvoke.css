@@ -14,10 +14,18 @@
     src: url(../font/HelveticaNeueBold.ttf);
   }
 
-  @font-face {
+@font-face {
     font-family: Poppins;
     src: url(../font/Poppins.ttf);
-  }
+}
+
+.test {
+    overflow: hidden;
+}
+
+.fixed-position {
+    position: fixed;
+ }
 
 #header-revamp-tv {
     background-color: #0F0D1E;
@@ -26,6 +34,8 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    position: fixed;
+    z-index: 999;
 }
 
 #header-revamp-tv .logo-oketv {
@@ -35,25 +45,95 @@
     background-repeat: no-repeat;
 }
 
-#header-revamp-tv .burger-tv {
-    background-image: url("../img/burger-tv.svg");
+#header-revamp-tv .expand {
+    content: url("../img/burger-tv.svg");
     height: 100%;
     width: 20px;
+    transition: transform 250ms;
+}
+
+.collapse {
+    content: url("../img/close.svg") !important;
+    height: 100%;
+    width: 20px;
+    transition: all 0.3s ease-out 0s;
+    transition: transform 250ms;
+}
+
+#header-revamp-tv .menu-header {
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: left;
+    font-size: 20px;
+    transform: rotate3d(0, 1, 0, 90deg);
+    transform-origin: left center;
+    transition: 0.5s;
+    z-index: 999;
+    padding-left: 17px;
+    padding-right: 17px;
+    overflow: hidden;
+}
+
+#header-revamp-tv .menu-header .boardtv {
+    padding-top: 26px;
+    display: flex;
+    gap: 13px
+}
+
+#header-revamp-tv .menu-header .boardradio {
+    padding-top: 36px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 13px
+}
+
+#header-revamp-tv .menu-header .title-board {
+    padding: 20px 0;
+} 
+
+#header-revamp-tv .menu-header .boardtv .boardtv-img {
+    background-image: url("../img/boardtv.svg");
+    height: 20px;
+    width: 22px;
     background-repeat: no-repeat;
+}
+
+#header-revamp-tv .menu-header .boardradio-img {
+    background-image: url("../img/boardradio.svg");
+    height: 20px;
+    width: 22px;
+    background-repeat: no-repeat;
+}
+
+#header-revamp-tv .menu-header .grup-board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-revamp-tv .menu-header .grup-board .board {
+    width: 50%;
+}
+
+#header-revamp-tv .menu-header.open {
+    transform: rotate3d(0, 0, 1, 0deg);
 }
 
 #wp-tv .slide-show {
     background-color: #5B5B5B;
     width: 100%;
-    height: 200px;
-    padding: 16px 28px 16px 16px;
+    padding-top: 20px;
 }
 
 #wp-tv .slide-show .ads-show {
     background-color: white;
     width: 320px;
     height: 50px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 #wp-tv .live-section {
@@ -110,6 +190,39 @@
     padding-left: 16px;
     padding-right: 16px;
     background: #1C1A28;
+}
+
+#wp-tv .storynews-section .grup-storynews.last {
+    position: relative;
+}
+
+#wp-tv .storynews-section .grup-storynews.last .img-storynews::after {
+    content: '';
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 100%;
+    height: 71%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, #000 75%);
+}
+
+#wp-tv .storynews-section .more {
+    position: absolute;
+    right: 10px;
+    color: white;
+    top: 46px;
+    bottom: 0;
+    width: 62px;
+    display: flex;
+    font-family: HelveticaNeue;
+    gap: 5px;
+}
+
+#wp-tv .storynews-section .more .icon-more {
+    background-image: url("../img/icon-more.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 #wp-tv .storynews-section .title-storynews {
@@ -191,5 +304,45 @@
     padding-bottom: 24px;
 }
 
-/* detail video */
+/* slider */
+
+#grup-slide {
+    margin-top: 60px;
+}
+
+#grup-slide .swiper {
+    width: 360px;
+    height: 168px;
+}
+
+#grup-slide .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#grup-slide .swiper-slide {
+    width: 279px;
+    height: 168px;
+}
+
+#grup-slide .swiper-slide.spec-height {
+    height: 186px !important;
+}
+
+#grup-slide .swiper-3d .swiper-slide-shadow {
+    background: none !important;
+}
+
+#grup-slide .swiper-slide img {
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+}
+
+
 
