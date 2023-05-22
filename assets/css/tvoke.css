@@ -338,8 +338,12 @@
     background: none !important;
 }
 
+/* #grup-slide .swiper-slide {
+    width: 300px !important;
+} */
+
 #grup-slide .swiper-slide img {
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
