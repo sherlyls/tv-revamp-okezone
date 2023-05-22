@@ -23,8 +23,35 @@ var swiperRadio = new Swiper('.grup-radio', {
 //     initialSlide: 2,
 // });
 
-var swiper = new Swiper('.mySwiper', {
-    // loop: true,
+// var swiper = new Swiper('.mySwiper', {
+//     // loop: true,
+//     speed: 1000,
+//     // autoplay: {
+//     //     delay: 3000,
+//     // },
+//     effect: 'coverflow',
+//     grabCursor: true,
+//     centeredSlides: true,
+//     slidesPerView: 2,
+//     coverflowEffect: {
+//         rotate: 0,
+//         stretch: 120,
+//         depth: 200,
+//         modifier: 1,
+//         slideShadows: false,
+//     },
+//     initialSlide: 2,
+
+//     // Navigation arrows
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+
+// })
+
+var mySwiper = new Swiper('.mySwiper', {
+    loop: true,
     speed: 1000,
     // autoplay: {
     //     delay: 3000,
@@ -32,7 +59,7 @@ var swiper = new Swiper('.mySwiper', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 2,
+    slidesPerView: 'auto',
     coverflowEffect: {
         rotate: 0,
         stretch: 80,
