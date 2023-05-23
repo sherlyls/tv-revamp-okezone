@@ -5,12 +5,10 @@ var swiperStorynews = new Swiper('.slider-storynews', {
 
 var swiperTvstreaming = new Swiper('.grup-streaming', {
     slidesPerView: "auto",
-    spaceBetween: 12,
 });
 
 var swiperRadio = new Swiper('.grup-radio', {
     slidesPerView: "auto",
-    spaceBetween: 12,
 });
 
 // var swiper = new Swiper(".mySwiper", {
