@@ -174,6 +174,11 @@ a:link {
     margin: 28px auto 28px;
 }
 
+#ads-show-tv.home-program {
+    width: 328px !important;
+    margin: 0 auto 20px;
+}
+
 #ads-show-tv.detailvid {
     margin: 28px auto 0 !important;
 }
@@ -581,6 +586,8 @@ footer .copy {
     height: 100%;
     padding-top: 72px;
     padding-bottom: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #home-program .banner img {
@@ -593,21 +600,27 @@ footer .copy {
     padding: 0 16px;
 }
 
-#home-program .section-lifestyle .grup-section-lifestyle {
-    width: 100%;
+#home-program .section-lifestyle .text {
+    padding-bottom: 16px;
+    font-family: HelveticaNeueBold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    color: #fff;
 }
 
 #home-program .section-lifestyle .grup-section-lifestyle {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
 }
 
 #home-program .section-lifestyle .grup-section-lifestyle .img-daily {
-    width: 162px;
+    width: 100%;
     height: 91px;
+    padding-bottom: 12px;
 }
-
-
 
 #home-program .section-lifestyle .grup-section-lifestyle .img-daily img {
     width: 100%;
@@ -616,4 +629,16 @@ footer .copy {
     border-radius: 5px;
 }
 
+#home-program .section-lifestyle .grup-section-lifestyle .news-daily {
+    width: calc(50% - 10px);
+}
+
+#home-program .section-lifestyle .grup-section-lifestyle .news-daily .text-daily {
+    padding-bottom: 20px;
+    font-family: HelveticaNeueBold;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    color: #fff;
+}
 
