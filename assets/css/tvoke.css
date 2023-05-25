@@ -15,7 +15,7 @@ a:link {
 
 @font-face {
     font-family: HelveticaNeue;
-    src: url(../font/HelveticaNeue.ttf);
+    src: url("../font/HelveticaNeue.ttf") format('truetype'); /* Safari, Android, iOS */;
   }
 
 @font-face {
@@ -388,7 +388,7 @@ footer .grup-medsos {
 
 footer .copy {
     color: #fff;
-    font-family: Poppins;
+    font-family: HelveticaNeue;
     display: flex;
     justify-content: center;
     font-weight: 400;
@@ -740,7 +740,8 @@ footer .copy {
 }
 
 @media screen and (min-width: 412px) {
-    #leftsidebar {width: 200px; float: left;}
-    #main {margin-left: 216px;}
+    #grup-slide .swiper {
+        width: 385px;
+    }
   }
 
