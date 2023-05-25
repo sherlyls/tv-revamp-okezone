@@ -11,16 +11,6 @@ var swiperRadio = new Swiper('.grup-radio', {
     slidesPerView: "auto",
 });
 
-// var swiper = new Swiper(".mySwiper", {
-//     effect: "cards",
-//     grabCursor: true,
-//     cardsEffect: {
-//         perSlideOffset: 17, // Space between cards in px
-//         perSlideRotate: 0, // Rotation of cards in degrees
-//     },
-//     initialSlide: 2,
-// });
-
 var mySwiper = new Swiper('.mySwiper', {
     loop: true,
     speed: 1000,
@@ -30,21 +20,21 @@ var mySwiper = new Swiper('.mySwiper', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 1.27,
+    slidesPerView: 1.24,
     coverflowEffect: {
         rotate: 0,
-        stretch: 228,
+        stretch: 232,
         depth: 200,
         modifier: 1,
         slideShadows: false,
     },
-    // initialSlide: 2,
+    // breakpoints: {
+    //     640: {
+    //       slidesPerView: 2,
+    //       spaceBetween: 20,
+    //     },
+    //   }
 
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
 
 })
 
@@ -55,6 +45,10 @@ $(document).ready(function () {
 
         $('.burger-tv.expand').toggleClass('collapse');
     });
+
+
+
+
 });
 
 
