@@ -29,6 +29,34 @@ var mySwiper = new Swiper('.mySwiper', {
         slideShadows: false,
     },
     breakpoints: {
+        360: {
+            slidesPerView: 1.27,
+            coverflowEffect: {
+                stretch: 230,
+                depth: 200,
+            },
+        },
+        370: {
+            slidesPerView: 1.27,
+            coverflowEffect: {
+                stretch: 230,
+                depth: 200,
+            },
+        },
+        376: {
+            slidesPerView: 1.25,
+            coverflowEffect: {
+                stretch: 229,
+                depth: 200,
+            },
+        },
+        385: {
+            slidesPerView: 1.27,
+            coverflowEffect: {
+                stretch: 230,
+                depth: 200,
+            },
+        },
         390: {
             slidesPerView: 1.28,
             coverflowEffect: {
@@ -40,6 +68,13 @@ var mySwiper = new Swiper('.mySwiper', {
             slidesPerView: 1.3,
             coverflowEffect: {
                 stretch: 231,
+                depth: 200,
+            },
+        },
+        413: {
+            slidesPerView: 1.39,
+            coverflowEffect: {
+                stretch: 218,
                 depth: 200,
             },
         },
