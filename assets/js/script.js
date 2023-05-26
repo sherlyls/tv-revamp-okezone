@@ -28,12 +28,29 @@ var mySwiper = new Swiper('.mySwiper', {
         modifier: 1,
         slideShadows: false,
     },
-    // breakpoints: {
-    //     640: {
-    //       slidesPerView: 2,
-    //       spaceBetween: 20,
-    //     },
-    //   }
+    breakpoints: {
+        390: {
+            slidesPerView: 1.28,
+            coverflowEffect: {
+                stretch: 230,
+                depth: 200,
+            },
+        },
+        400: {
+            slidesPerView: 1.3,
+            coverflowEffect: {
+                stretch: 231,
+                depth: 200,
+            },
+        },
+        414: {
+            slidesPerView: 1.39,
+            coverflowEffect: {
+                stretch: 218,
+                depth: 200,
+            },
+        }
+    }
 
 
 })
