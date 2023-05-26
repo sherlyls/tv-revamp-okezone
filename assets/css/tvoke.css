@@ -79,8 +79,8 @@ a:link {
     height: 100vh;
     text-align: left;
     font-size: 20px;
-    transform: rotate3d(0, 1, 0, 90deg);
-    transform-origin: left center;
+    transform: rotate3d(1, 0, 0, 90deg);
+    transform-origin: top;
     transition: 0.5s;
     z-index: 999;
     padding-left: 17px;
@@ -117,14 +117,14 @@ a:link {
 }
 
 #header-revamp-tv .menu-header .boardradio {
-    padding-top: 36px;
+    padding-top: 16px;
     padding-bottom: 20px;
     display: flex;
     gap: 13px
 }
 
 #header-revamp-tv .menu-header .title-board {
-    padding: 20px 0;
+    padding-bottom: 20px ;
 } 
 
 #header-revamp-tv .menu-header .boardtv .boardtv-img {
@@ -144,7 +144,6 @@ a:link {
 #header-revamp-tv .menu-header .grup-board {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
 
 #header-revamp-tv .menu-header .grup-board .board {
@@ -154,6 +153,10 @@ a:link {
     line-height: 150%;
     color: #0F0D1E;
     margin-bottom: 20px;
+}
+
+#header-revamp-tv .menu-header .grup-board.last .board {
+    font-family: ArchivoBold !important;
 }
 
 #header-revamp-tv .menu-header.open {
