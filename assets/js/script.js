@@ -93,10 +93,15 @@ var mySwiper = new Swiper('.mySwiper', {
 $(document).ready(function () {
     $(".burger-tv").click(function () {
         $('.menu-header').toggleClass('open');
+        $(".menu-header").hasClass("open") ? ($(".menu-header").animate({
+            top: "56px", 
+        })) : $(".menu-header").animate({
+            top: "-100%"
+          })
         $('html').toggleClass('test');
-
         $('.burger-tv.expand').toggleClass('collapse');
     });
+
 
 
 
