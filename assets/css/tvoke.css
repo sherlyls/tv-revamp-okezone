@@ -197,6 +197,17 @@ a:link {
     padding: 9px 16px 20px;
 }
 
+#wp-tv .live-section div:first-child {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#wp-tv .live-section div:first-child .logo-live {
+    width: 105px;
+    height: 20px;
+}
+
 #wp-tv .live-section .text-live {
     color: #fff;
     font-family: ArchivoBold;
