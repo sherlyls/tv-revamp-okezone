@@ -199,6 +199,11 @@ a:link {
     margin: 0 auto 20px;
 }
 
+#ads-show-tv.detail-live {
+    width: 328px !important;
+    margin: 0 auto 28px;
+}
+
 #ads-show-tv.detailvid {
     margin: 28px auto 0 !important;
 }
@@ -213,6 +218,10 @@ a:link {
     height: 403px;
     width: 100%;
     padding: 9px 16px 20px;
+}
+
+#detail-live .live-section {
+    height: 100%;
 }
 
 #wp-tv .live-section div:first-child {
@@ -690,14 +699,16 @@ footer .copy {
 
 /* Detail Live */
 
-#detail-video-tv .share {
+#detail-video-tv .share,
+#detail-live .share {
     display: flex;
     margin: 16px 16px 0px;
     align-items: center;
     gap: 16px;
 }
 
-#detail-video-tv .share .text {
+#detail-video-tv .share .text,
+#detail-live .share .text {
     font-family: Archivo;
     font-size: 12px;
     line-height: 18px;
@@ -705,9 +716,14 @@ footer .copy {
     color: #fff;
 }
 
-#detail-video-tv .share .grup-share {
+#detail-video-tv .share .grup-share,
+#detail-live .share .grup-share {
     display: flex;
     gap: 16px;
+}
+
+#detail-live .share {
+    margin: 16px 16px 0px 0px;
 }
 
 /* Home Program */
@@ -727,11 +743,19 @@ footer .copy {
     object-fit: cover;
 }
 
-#home-program .section-lifestyle {
+#home-program .section-lifestyle,
+#detail-live .section-lifestyle {
     padding: 0 16px;
 }
 
-#home-program .section-lifestyle .text {
+#detail-live .section-lifestyle {
+    background: #1C1A28;
+    margin-top: -1px;
+}
+
+
+#home-program .section-lifestyle .text,
+#detail-live .section-lifestyle .text {
     padding-bottom: 16px;
     font-family: ArchivoBold;
     font-size: 16px;
@@ -740,31 +764,40 @@ footer .copy {
     color: #fff;
 }
 
-#home-program .section-lifestyle .grup-section-lifestyle {
+#home-program .section-lifestyle .grup-section-lifestyle,
+#detail-live .section-lifestyle .grup-section-lifestyle {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
 
-#home-program .section-lifestyle .grup-section-lifestyle .img-daily {
+#detail-live .section-lifestyle .grup-section-lifestyle {
+    margin-top: 16px;
+}
+
+#home-program .section-lifestyle .grup-section-lifestyle .img-daily,
+#detail-live .section-lifestyle .grup-section-lifestyle .img-daily {
     width: 100%;
     height: 91px;
     padding-bottom: 12px;
 }
 
-#home-program .section-lifestyle .grup-section-lifestyle .img-daily img {
+#home-program .section-lifestyle .grup-section-lifestyle .img-daily img,
+#detail-live .section-lifestyle .grup-section-lifestyle .img-daily img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
 
-#home-program .section-lifestyle .grup-section-lifestyle .news-daily {
+#home-program .section-lifestyle .grup-section-lifestyle .news-daily,
+#detail-live .section-lifestyle .grup-section-lifestyle .news-daily {
     width: calc(50% - 10px);
 }
 
-#home-program .section-lifestyle .grup-section-lifestyle .news-daily .text-daily {
+#home-program .section-lifestyle .grup-section-lifestyle .news-daily .text-daily, 
+#detail-live .section-lifestyle .grup-section-lifestyle .news-daily .text-daily {
     padding-bottom: 20px;
     font-family: ArchivoBold;
     font-size: 12px;
@@ -788,15 +821,17 @@ footer .copy {
 
 #detail-live .live-section {
     background: #1C1A28;
+    padding-bottom: 29px;
 }
 
 #detail-live .live-section .title-live {
     padding-top: 12px;
     padding-bottom: 8px;
     font-family: ArchivoBold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 150%;
     color: #fff;
+    letter-spacing: 0.3px;
 }
 
 #detail-live .live-section .content-live {
@@ -839,11 +874,11 @@ footer .copy {
     }
   }
 
-  @media screen and (min-width: 395px) {
+  /* @media screen and (min-width: 395px) {
     #grup-slide .swiper {
         height: 105px;
     }
-  }
+  } */
 
 @media screen and (min-width: 400px) {
     #grup-slide .swiper {
