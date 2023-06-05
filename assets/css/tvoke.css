@@ -89,7 +89,7 @@ a:link {
     position: fixed;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 92vh;
     text-align: left;
     font-size: 20px;
     /* transform: rotate3d(1, 0, 0, 90deg);
@@ -918,7 +918,7 @@ footer .copy {
 
 @media screen and (min-width: 360px) {
     #grup-slide .swiper {
-        width: 390px;
+        width: 340px;
     }
   }
 
