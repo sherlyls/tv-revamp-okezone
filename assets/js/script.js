@@ -88,7 +88,7 @@ $(document).ready(function () {
         $(".menu-header").hasClass("open") ? ($(".menu-header").animate({
             top: "56px", 
         })) : $(".menu-header").animate({
-            top: "-100%"
+            top: "-120%"
           })
         $('html').toggleClass('test');
         $('.burger-tv.expand').toggleClass('collapse');
