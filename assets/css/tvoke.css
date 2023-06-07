@@ -815,6 +815,10 @@ footer .copy {
     margin: 16px 16px 0px 0px;
 }
 
+#detail-video-tv .share {
+    margin: 28px 0px 0px 0px !important;
+}
+
 /* Home Program */
 
 #home-program .banner {
@@ -983,7 +987,7 @@ footer .copy {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
     #grup-slide .swiper {
         width: 575px; 
         height: 248px;  
@@ -997,6 +1001,10 @@ footer .copy {
     }
     #grup-slide .swiper-slide.spec-height {
         height: 234px !important;
+    }
+    #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
+        width: 242px;
+        height: 155.47px;
     }
 }
 
