@@ -88,8 +88,8 @@ a:link {
     display: flex;
     position: fixed;
     left: 0;
-    width: 100vw;
-    height: 93vh;
+    width: 100%;
+    height: 100%;
     text-align: left;
     font-size: 20px;
     /* transform: rotate3d(1, 0, 0, 90deg);
@@ -495,7 +495,7 @@ a:link {
 #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
@@ -974,12 +974,29 @@ footer .copy {
     }
   }
 
-  @media screen and (min-width: 414px) {
+@media screen and (min-width: 414px) {
     #grup-slide .swiper {
         width: 382px;   
-    }
+   }
     #home-program .section-lifestyle .grup-section-lifestyle .img-daily {
         height: 111px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #grup-slide .swiper {
+        width: 575px; 
+        height: 248px;  
+   }
+    #home-program .section-lifestyle .grup-section-lifestyle .img-daily {
+        height: 111px;
+    }
+    #grup-slide .swiper-slide {
+        height: 210px;
+        width: 357px !important;
+    }
+    #grup-slide .swiper-slide.spec-height {
+        height: 234px !important;
     }
 }
 

@@ -76,10 +76,15 @@ var mySwiper = new Swiper('.mySwiper', {
             coverflowEffect: {
                 stretch: 218,
             },
+        },
+        600: {
+            slidesPerView: 1.65,
+            coverflowEffect: {
+                stretch: 250,
+            },
+            modifier: 2,
         }
     }
-
-
 })
 
 $(document).ready(function () {
@@ -93,11 +98,6 @@ $(document).ready(function () {
         $('html').toggleClass('test');
         $('.burger-tv.expand').toggleClass('collapse');
     });
-
-
-
-
-
 });
 
 
