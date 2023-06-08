@@ -77,13 +77,27 @@ var mySwiper = new Swiper('.mySwiper', {
                 stretch: 218,
             },
         },
+        500: {
+            slidesPerView: 1.34,
+            coverflowEffect: {
+                stretch: 283,
+            },
+            modifier: 2,
+        },
         550: {
+            slidesPerView: 1.47,
+            coverflowEffect: {
+                stretch: 270,
+            },
+            modifier: 2,
+        },
+        600: {
             slidesPerView: 1.65,
             coverflowEffect: {
                 stretch: 250,
             },
             modifier: 2,
-        }
+        },
     }
 })
 
@@ -91,7 +105,7 @@ $(document).ready(function () {
     $(".burger-tv").click(function () {
         $('.menu-header').toggleClass('open');
         $(".menu-header").hasClass("open") ? ($(".menu-header").animate({
-            top: "56px", 
+            top: "0px", padding: "56px 16px", 
         })) : $(".menu-header").animate({
             top: "-120%"
           })

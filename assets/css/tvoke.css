@@ -8,6 +8,8 @@ a {
   display: inline-block;
 }
 
+html, body { height: 100%; }
+
 a:visited,
 a:link {
   text-decoration: none;
@@ -98,14 +100,14 @@ a:link {
   z-index: 99;
   padding-left: 17px;
   padding-right: 17px;
-  overflow: hidden;
+  overflow: scroll;
   transition-duration: 500ms;
   top: -100%;
 }
 
-#header-revamp-tv .menu-header.open {
+/* #header-revamp-tv .menu-header.open {
   overflow: scroll;
-}
+} */
 
 #header-revamp-tv .menu-header .boardtv {
   padding-top: 26px;
@@ -228,7 +230,7 @@ a:link {
 }
 
 #detail-live .live-section {
-  height: 100%;
+  height: max-content
 }
 
 #wp-tv .live-section div:first-child,
@@ -904,8 +906,8 @@ footer .copy {
 
 #home-program .banner {
   width: 100vw;
-  height: 100%;
-  padding-top: 72px;
+  /* height: 100%; */
+  padding-top: 76px;
   padding-bottom: 28px;
   padding-left: 16px;
   padding-right: 16px;
@@ -1076,7 +1078,7 @@ footer .copy {
 
 @media screen and (min-width: 500px) {
   #grup-slide .swiper {
-    width: 575px;
+    width: 472px;
     height: 248px;
   }
   #home-program .section-lifestyle .grup-section-lifestyle .img-daily {
@@ -1092,6 +1094,20 @@ footer .copy {
   #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
     width: 242px;
     height: 155.47px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  #grup-slide .swiper {
+    width: 516px;
+    height: 248px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #grup-slide .swiper {
+    width: 575px;
+    height: 248px;
   }
 }
 
@@ -1158,10 +1174,12 @@ footer .copy {
     }
     #wp-tv #ads-show-tv {
       margin-top: -10px;
-      width: 550px;
+      width: 85%;
       height: 70px;
     }
   }
+
+
 
 @media screen and (max-width: 370px) {
   #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
