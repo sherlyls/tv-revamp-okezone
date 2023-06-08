@@ -77,7 +77,7 @@ var mySwiper = new Swiper('.mySwiper', {
                 stretch: 218,
             },
         },
-        600: {
+        550: {
             slidesPerView: 1.65,
             coverflowEffect: {
                 stretch: 250,
