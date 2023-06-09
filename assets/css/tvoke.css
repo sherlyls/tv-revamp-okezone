@@ -669,6 +669,15 @@ footer .copy {
   padding: 0 16px;
 }
 
+#detail-video-tv .live-section .iframe {
+  padding-top: 56px;
+}
+
+#detail-video-tv .live-section .iframe iframe {
+  width: 100%;
+  min-height: 266px;
+}
+
 #all-grup-storynews .storynews-section .grup-storynews .img-watchlater {
   width: 160px;
   height: 90px;
