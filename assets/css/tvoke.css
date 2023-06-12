@@ -551,7 +551,6 @@ a:link {
 
 #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper {
   display: flex;
-  justify-content: center;
 }
 
 #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
@@ -1122,8 +1121,8 @@ footer .copy {
 
 @media screen and (max-width: 500px) {
   #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
-    width: 145px;
-    height: 81.47px;
+    width: 165px;
+    height: 92.47px;
   }
   #wp-tv .flex-live .second-div {
     display: none;
