@@ -114,5 +114,19 @@ $(document).ready(function () {
     });
 });
 
+function sharelinkfacebook() {
+    window.open("https://www.facebook.com/sharer/sharer.php?u="+linksharevideo+"", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,width=400,height=400");
+  }
+  function sharelinktwitter() {
+    window.open("https://twitter.com/share?url="+linksharevideo+"&text="+titlesharevideo+"&via=okezonenews", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,width=400,height=400");
+  }
+
+  function copyToClipboard(element) {
+	const textToCopy = $(element).val();
+	navigator.clipboard.writeText(textToCopy)
+	// .then(() => { alert(`Copied!`) })
+	// .catch((error) => { alert(`Copy failed! ${error}`) })
+}
+
 
 

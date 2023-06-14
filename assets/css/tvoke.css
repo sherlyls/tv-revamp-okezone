@@ -169,15 +169,11 @@ a:link {
 
 #header-revamp-tv .menu-header .grup-board .board {
   width: 50%;
-  font-family: Archivo;
+  font-family: Archivo !important;
   font-size: 16px;
   line-height: 150%;
   color: #0f0d1e;
   margin-bottom: 20px;
-}
-
-#header-revamp-tv .menu-header .grup-board.last .board {
-  font-family: ArchivoBold !important;
 }
 
 /* #header-revamp-tv .menu-header.open {
@@ -455,22 +451,9 @@ a:link {
   .storynews-section
   .grup-streaming
   .image-streaming:nth-child(5) {
-  padding: 31px 47px;
-}
-
-#all-grup-storynews
-  .storynews-section
-  .grup-streaming
-  .image-streaming:nth-child(6) {
   padding: 31px 29px;
 }
 
-#all-grup-storynews
-  .storynews-section
-  .grup-streaming
-  .image-streaming:nth-child(7) {
-  padding: 38px 10px;
-}
 
 #all-grup-storynews
   .storynews-section
@@ -513,26 +496,8 @@ a:link {
   .grup-streaming
   .image-streaming:nth-child(5)
   div {
-  width: 48px;
-  height: 32px;
-}
-
-#all-grup-storynews
-  .storynews-section
-  .grup-streaming
-  .image-streaming:nth-child(6)
-  div {
   width: 83px;
   height: 32px;
-}
-
-#all-grup-storynews
-  .storynews-section
-  .grup-streaming
-  .image-streaming:nth-child(7)
-  div {
-  width: 122px;
-  height: 17px;
 }
 
 #all-grup-storynews .storynews-section .grup-streaming .image-streaming img {
@@ -549,8 +514,13 @@ a:link {
   margin-right: 12px;
 }
 
+#all-grup-storynews .storynews-section .grup-radio {
+  margin-left: -16px !important;
+}
+
 #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper {
   display: flex;
+  justify-content: center;
 }
 
 #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
@@ -674,7 +644,7 @@ footer .copy {
 
 #detail-video-tv .live-section .iframe iframe {
   width: 100%;
-  min-height: 266px;
+  min-height: 213px;
 }
 
 #all-grup-storynews .storynews-section .grup-storynews .img-watchlater {
@@ -883,6 +853,10 @@ footer .copy {
   gap: 16px;
 }
 
+#detail-video-tv.detail-live footer {
+  margin-top: 39px;
+}
+
 #detail-video-tv .share .text,
 #detail-live .share .text {
   font-family: Archivo;
@@ -903,12 +877,58 @@ footer .copy {
 }
 
 #detail-video-tv .share {
-  margin: 28px 0px 0px 0px !important;
+  margin: 28px 0px 0px 0px;
 }
 
 #detail-video-tv.detail-live .share {
-  margin: 28px 0px 0px 16px !important;
+  margin: 28px 0px 0px 16px!important;
 }
+
+#detail-video-tv .share .grup-share .img {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#detail-video-tv .share .grup-share .img > a,
+#detail-video-tv .share .grup-share .img > div {
+  width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    display: block;
+    border-radius: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+#detail-video-tv .share .grup-share .img > a {
+  text-indent: -99999px;
+}
+
+#detail-video-tv .share .grup-share .img.facebook {
+  background-image: url(../img/share-fb.svg);
+}
+
+#detail-video-tv .share .grup-share .img.twitter {
+  background-image: url(../img/share-twiter.svg);
+}
+
+#detail-video-tv .share .grup-share .img.whatsapp {
+  background-image: url(../img/share-wa.svg);
+}
+
+#detail-video-tv .share .grup-share .img.email {
+  background-image: url(../img/share-email.svg);
+}
+
+#detail-video-tv .share .grup-share .img.link.button-share {
+  background-image: url(../img/sharelink.svg);
+}
+
+
 
 /* Home Program */
 
@@ -1050,6 +1070,9 @@ footer .copy {
   #grup-slide .swiper {
     width: 353px;
   }
+  #home-program .section-lifestyle .grup-section-lifestyle .img-daily, #detail-live .section-lifestyle .grup-section-lifestyle .img-daily {
+    height: 114px;
+  }
 }
 
 @media screen and (min-width: 385px) {
@@ -1100,8 +1123,15 @@ footer .copy {
     height: 234px !important;
   }
   #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
-    width: 242px;
+    width: 279px;
     height: 155.47px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #all-grup-storynews .storynews-section .grup-radio .swiper-wrapper a {
+    width: 340px;
+    height: 202.47px;
   }
 }
 
@@ -1150,7 +1180,7 @@ footer .copy {
       height: 225px;
     }
     #wp-tv .live-section .flex-live .iframe iframe {
-      height: 225px;
+      height: 263px;
     }
     #wp-tv .live-section .flex-live .content-iframe {
       width: 43%;
@@ -1170,7 +1200,7 @@ footer .copy {
       padding-right: 0px !important;
     }
     #wp-tv .live-section {
-      height: 273px;
+      height: 309px;
       width: 100%;
       padding: 20px 16px 20px;
     }
