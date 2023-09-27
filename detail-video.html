@@ -73,12 +73,21 @@
             <div class="share">
                 <div class="text">Share</div>
                 <div class="grup-share">
-                    <a href=""><img src="./assets/img/share-fb.svg"/></a>
-                    <a href=""><img src="./assets/img/share-twiter.svg"/></a>
-                    <a href=""><img src="./assets/img/share-wa.svg"/></a>
-                    <a href=""><img src="./assets/img/share-email.svg"/></a>
-                    <a href=""><img src="./assets/img/sharelink.svg"/></a>
-                </div>
+                    <div class="img facebook"><a class="facebook-share" onclick="sharelinkfacebook()" rel="nofollow" id="fb1">Share on Facebook</a></div>
+                    <div class="img twitter"><a class="twitter-share" onclick="sharelinktwitter()" rel="nofollow" id="twt1">Share on Twitter</a></div>
+                    <div class="img whatsapp"><a href="https://web.whatsapp.com/send?text=%0D%0A%0D%0A%0D%0AYuk Baca artikel *Streaming+-+RCTI* ,%0D%0A%0D%0AKlik selengkapnya  https%3A%2F%2Ftv2017.okezone.com%2Fhome%2Fchange_channel%2Frcti %0D%0A%0D%0ADownload aplikasi Okezone Portal Berita Online Indonesia:%0D%0A👇%0D%0AAndroid : https://play.google.com/store/apps/details?id=linktone.okezone.android%0D%0AiOS : https://apps.apple.com/us/app/okezone-com-news/id624468351" target="_blank" data-text="Streaming - RCTI" class="wa wa_btn wa_btn_s wa_btn_s sh-whatsapp" id="wa1">whatsapp</a></div>
+                    <div class="img email"><a href="mailto:?subject=Streaming - RCTI;body=https://tv2017.okezone.com/home/change_channel/rcti" class="share-mail" rel="nofollow" id="smail1">Share on mail</a></div>
+                    <div class="img link button-share" data-network="copy article">
+                        <!-- <div class="copy-link" data-clipboard-text="Profil dan Biodata Chelsea Islan, Lengkap dengan Agama, Umur, Calon Suami, dan Perjalanan Karier - Parboaboa">copy link</div> -->
+                        <div class="copy-link" onclick="copyToClipboard('#url-doang')" rel="nofollow">copy link</div>
+                    </div>
+                    <div class="notif" style="display: none;">Link successfully copied</div>
+                      <!-- <a href=""><img src="https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-fb.svg"/></a>
+                      <a href=""><img src="https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-twiter.svg"/></a>
+                      <a href=""><img src="https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-wa.svg"/></a>
+                      <a href=""><img src="https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-email.svg"/></a>
+                      <a href=""><img src="https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/sharelink.svg"/></a> -->
+                  </div>
             </div>
 
             <a href="" class="title-storynews">Watch next from “Daily Lifestyle”</a>
@@ -118,7 +127,9 @@
             </div>
         </section>
 
-        <div id="ads-show-tv" class="detailvid"></div>
+        <div id="ads-show-tv" class="detailvid">
+            <img src="https://cdn.okezone.com/underwood/revamp/2023/tv/desktop/img/ads.png" />
+        </div>
 
         <section class="storynews-section ">
             <a href="" class="title-storynews">Daily Lifestyle</a>

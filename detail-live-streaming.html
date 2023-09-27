@@ -54,8 +54,7 @@
     <section class="live-section">
         <div class="flex-title">
             <div class="text-live">Live</div>
-            <img class="logo-live"
-                src="https://client.okezone.com/testing/farid/okezonetv/live/desktop/asset/img/logo-okztv.svg" />
+            <img class="logo-live" src="./assets/img/living.png" />
         </div>
         <div class="iframe">
             <iframe width=100% height="193" src="https://www.youtube.com/embed/V3iLPiwOizg" title="YouTube video player"
@@ -64,70 +63,84 @@
                 allowfullscreen></iframe>
         </div>
         <a href="" class="title-live">Press Conference Penangkapan Ammar Zoni</a>
-        <div class="content-live">Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+        <!-- <div class="content-live">Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
             dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
-            interdum tellus elit sed risus.</div>
+            interdum tellus elit sed risus.</div> -->
 
         <div class="share">
             <div class="text">Share</div>
             <div class="grup-share">
-                <a onclick="sharelinkfacebook()" rel="nofollow" href=""><img src="./assets/img/share-fb.svg" />Share on Facebook</a>
-                <a href=""><img src="./assets/img/share-twiter.svg" /></a>
-                <a href=""><img src="./assets/img/share-wa.svg" /></a>
-                <a href=""><img src="./assets/img/share-email.svg" /></a>
-                <a href=""><img src="./assets/img/sharelink.svg" /></a>
-                <a class="facebook-share"  rel="nofollow" id="fb1">Share on Facebook</a>
+                <div class="img facebook"><a class="facebook-share" onclick="sharelinkfacebook()" rel="nofollow"
+                        id="fb1">Share on Facebook</a></div>
+                <div class="img twitter"><a class="twitter-share" onclick="sharelinktwitter()" rel="nofollow"
+                        id="twt1">Share on Twitter</a></div>
+                <div class="img whatsapp"><a
+                        href="https://web.whatsapp.com/send?text=%0D%0A%0D%0A%0D%0AYuk Baca artikel *Streaming+-+MNC+TV* ,%0D%0A%0D%0AKlik selengkapnya  https%3A%2F%2Ftv2017.okezone.com%2F %0D%0A%0D%0ADownload aplikasi Okezone Portal Berita Online Indonesia:%0D%0A👇%0D%0AAndroid : https://play.google.com/store/apps/details?id=linktone.okezone.android%0D%0AiOS : https://apps.apple.com/us/app/okezone-com-news/id624468351"
+                        target="_blank" data-text="Streaming - MNC TV" class="wa wa_btn wa_btn_s wa_btn_s sh-whatsapp"
+                        id="wa1">whatsapp</a></div>
+                <div class="img email"><a
+                        href="mailto:?subject=Streaming - MNC TV;body=https://tv2017.okezone.com/home/change_channel/mnc_tv"
+                        class="share-mail" rel="nofollow" id="smail1">Share on mail</a></div>
+                <div class="img link button-share" data-network="copy article">
+                    <div class="copy-link" onclick="copyToClipboard('#url-doang')" rel="nofollow">copy link</div>
+                </div>
+                <div class="notif" style="display: none;">Link successfully copied</div>
             </div>
         </div>
     </section>
 
-    
+
 
     <section class="section-lifestyle">
-        <div id="ads-show-tv" class="detail-live"></div>
-        <div class="text">In Case You Miss It</diYouv>
-        <div class="grup-section-lifestyle">
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
-            <a href="" class="news-daily">
-                <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
-                <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
-            </a>
+        <div id="ads-show-tv" class="detail-live">
+            <img src="https://cdn.okezone.com/underwood/revamp/2023/tv/desktop/img/ads.png" />
         </div>
+        <div class="text">In Case You Miss It</diYouv>
+            <div class="grup-section-lifestyle">
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+                <a href="" class="news-daily">
+                    <div class="img-daily"><img src="./assets/img/dailyimage.png" /></div>
+                    <div class="text-daily">10 Brand Lokal Unjuk Gigi di TBF Showroom Event</div>
+                </a>
+            </div>
+            <div class="button-more">
+                <a href="">More</a>
+            </div>
     </section>
 
     <footer>
@@ -138,8 +151,10 @@
             <a target="_blank" href="https://www.facebook.com/OkezoneCom/"><img src="./assets/img/fb.svg" /></a>
             <a target="_blank" href="https://twitter.com/okezonenews"><img src="./assets/img/twitter.svg" /></a>
             <a target="_blank" href="https://www.instagram.com/okezonecom/"><img src="./assets/img/ig.svg" /></a>
-            <a target="_blank" href="https://www.youtube.com/user/okezoneindonesia" ><img src="./assets/img/youtube.svg" /></a>
-            <a target="_blank" href="https://www.tiktok.com/@okezonecom?_t=8UA2ReJzaxW&amp;_r=1" ><img src="./assets/img/tiktok.svg" /></a>
+            <a target="_blank" href="https://www.youtube.com/user/okezoneindonesia"><img
+                    src="./assets/img/youtube.svg" /></a>
+            <a target="_blank" href="https://www.tiktok.com/@okezonecom?_t=8UA2ReJzaxW&amp;_r=1"><img
+                    src="./assets/img/tiktok.svg" /></a>
         </div>
         <div class="copy">Copyright © 2021 Media Portal Indonesia. All right reserved</div>
     </footer>

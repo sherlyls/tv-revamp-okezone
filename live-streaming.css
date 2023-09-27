@@ -1,0 +1,13 @@
+@font-face {
+    font-family: ArchivoBold;
+    src: url(../font/ArchivoBold.ttf)
+}
+
+#live-link {
+    background-color: #1B387B;
+    margin: 16px 16px 0;
+}
+
+#live-link .title-live {
+    display: flex;
+}
