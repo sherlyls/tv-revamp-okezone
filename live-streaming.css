@@ -3,6 +3,167 @@
     src: url(./assets/font/ArchivoBold.ttf)
 }
 
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url(./assets/font/HelveticaNeueBold.ttf)
+}
+
+#detail-live .staytuned-livestreaming {
+    background: #1c1a28;
+    padding: 0 16px;
+}
+
+#detail-live .staytuned-livestreaming .img-staylive {
+    width: 343px;
+    height: 251px;
+    margin: 0 auto 20px;
+    padding-top: 24px;
+}
+
+#detail-live .staytuned-livestreaming .img-staylive img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#detail-live .staytuned-livestreaming a {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 36px;
+}
+
+#detail-live .staytuned-livestreaming a div {
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #1C1A28;
+    font-size: 14px;
+    font-family: ArchivoBold;
+    line-height: 21px;
+}
+
+#detail-live .staytuned-livestreaming .text-staylive {
+    color: white;
+    font-family: ArchivoBold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#wp-tv .live-section .text-live,
+#detail-live .live-section .text-live {
+    padding-bottom: none;
+}
+
+#wp-tv .live-section .text-live {
+    color: #fff !important;
+    padding-bottom: 12px;
+}
+
+#detail-live .live-section .text-live {
+    color: #202020 !important;
+    font-family: HelveticaNeueBold;
+}
+
+#detail-live .share .grup-share .img {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+  }
+
+#detail-live .share .grup-share .img>a,
+#detail-live .share .grup-share .img>div  {
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  display: block;
+  border-radius: 0;
+  cursor: pointer;
+  color: #fff
+}
+
+#detail-live .share .grup-share .img>a {
+    text-indent: -99999px
+  }
+
+  #detail-live .share .grup-share .img.facebook {
+    background-image: url(https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-fb.svg)
+  }
+
+  #detail-live .share .grup-share .img.twitter {
+    background-image: url(https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-twiter.svg)
+  }
+
+  #detail-live .share .grup-share .img.whatsapp {
+    background-image: url(https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-wa.svg)
+  }
+
+  #detail-live .share .grup-share .img.email {
+    background-image: url(https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/share-email.svg)
+  }
+
+  #detail-live .share .grup-share .img.link.button-share {
+    background-image: url(https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/img/sharelink.svg)
+  }
+
+  #home-program .button-more,
+#detail-live .button-more,
+#detail-video-tv .button-more {
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 16px 0 !important;
+  display: flex;
+  justify-content: center
+}
+
+#home-program .button-more {
+    width: 80%;
+  }
+  
+  #detail-live .button-more {
+    margin-top: 12px;
+  }
+  
+  #detail-video-tv .button-more {
+    margin-top: 28px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  
+  #detail-live .button-more {
+    width: 100%;
+  }
+
+  #detail-live .button-more a,
+#detail-live .button-more a:visited,
+#detail-live .button-more a:link,
+#detail-video-tv .button-more a,
+#detail-video-tv .button-more a:visited,
+#detail-video-tv .button-more a:link {
+  color: #000;
+  font-family: ArchivoBold
+}
+
+#detail-live .live-section .flex-title {
+    margin-top: 24px !important;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 9px 16px;
+    align-items: center;
+  }
+
+  #detail-live .live-section .flex-title .logo-live {
+    width: 52px !important;
+    height: 29.5px !important;
+  }
+  
 #live-link {
     background-color: #1B387B;
     margin: 16px 16px 0;
@@ -56,4 +217,3 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-
