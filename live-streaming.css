@@ -51,11 +51,6 @@
     padding-bottom: 20px;
 }
 
-#wp-tv .live-section .text-live,
-#detail-live .live-section .text-live {
-    padding-bottom: none;
-}
-
 #wp-tv .live-section .text-live {
     color: #fff !important;
     padding-bottom: 12px;
@@ -155,8 +150,7 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
-    padding: 9px 16px;
-    align-items: center;
+    padding: 9px 16px 0;
   }
 
   #detail-live .live-section .flex-title .logo-live {
