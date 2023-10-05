@@ -1,0 +1,63 @@
+@font-face {
+    font-family: ArchivoBold;
+    src: url(./assets/font/ArchivoBold.ttf)
+}
+
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url(./assets/font/HelveticaNeueBold.ttf)
+}
+ 
+#live-link {
+    background-color: #1B387B;
+    margin: 16px 16px 0;
+    padding: 11px 8px;
+    border-radius: 4px;
+    height: 106px;
+}
+
+#live-link.h-kanal {
+    margin: 16px 11px 0 !important;
+}
+
+#live-link.d-kanal {
+    margin: 0 16px 20px !important;
+}
+
+#live-link .title-live {
+    display: flex;
+    align-items: center;
+    background-color: #CB1B29;
+    width: max-content;
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+#live-link .text-live {
+    color: white;
+    font-size: 12px;
+    line-height: 13.06px;
+}
+
+#live-link .desc-live {
+    display: flex;
+    gap: 12px;
+}
+
+#live-link .desc-live img {
+    margin-top: 4px;
+}
+
+#live-link .text-desc {
+    font-family: ArchivoBold;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

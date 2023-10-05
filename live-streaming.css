@@ -1,11 +1,11 @@
 @font-face {
-    font-family: ArchivoBold;
-    src: url(./assets/font/ArchivoBold.ttf)
+  font-family: ArchivoBold;
+  src: url(./assets/font/ArchivoBold.ttf)
 }
 
 @font-face {
-    font-family: HelveticaNeueBold;
-    src: url(./assets/font/HelveticaNeueBold.ttf)
+  font-family: HelveticaNeueBold;
+  src: url(./assets/font/HelveticaNeueBold.ttf)
 }
 
 #detail-live .staytuned-livestreaming {
