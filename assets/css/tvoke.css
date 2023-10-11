@@ -1044,7 +1044,7 @@ footer .copy {
   }
 
   #detail-video-tv .share .grup-share .notif,
-  #detail-video-tv .share .grup-share .notif {
+  #detail-live .share .grup-share .notif {
     font-size: 8px;
     margin-top: 3px;
     margin-left: -4px
@@ -1059,7 +1059,7 @@ footer .copy {
 @media screen and (min-width:362px) {
 
   #detail-video-tv .share .grup-share .notif,
-  #detail-video-tv .share .grup-share .notif {
+  #detail-live .share .grup-share .notif {
     font-size: 8px;
     margin-top: 8px;
     margin-left: -8px
@@ -1075,7 +1075,7 @@ footer .copy {
 @media screen and (min-width:375px) {
 
   #detail-video-tv .share .grup-share .notif,
-  #detail-video-tv .share .grup-share .notif {
+  #detail-live .share .grup-share .notif {
     font-family: ArchivoBold;
     color: #fff;
     font-size: 9px;

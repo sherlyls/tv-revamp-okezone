@@ -1171,7 +1171,7 @@ footer .copy {
 @media screen and (min-width:375px) {
 
   #detail-video-tv .share .grup-share .notif,
-  #detail-video-tv .share .grup-share .notif {
+  #detail-live .share .grup-share .notif {
     font-family: ArchivoBold;
     color: #fff;
     font-size: 9px;

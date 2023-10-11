@@ -1111,7 +1111,8 @@ footer .copy {
 #detail-live .button-more a:link,
 #detail-video-tv .button-more a,
 #detail-video-tv .button-more a:visited,
-#detail-video-tv .button-more a:link {
+#detail-video-tv .button-more a:link,
+#detail-live .button-more div {
     color: #000;
     font-family: ArchivoBold
 }

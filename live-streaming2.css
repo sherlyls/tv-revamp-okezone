@@ -7,7 +7,7 @@
     font-family: HelveticaNeueBold;
     src: url(./assets/font/HelveticaNeueBold.ttf)
 }
- 
+
 #live-link {
     background-color: #1B387B;
     margin: 16px 16px 0;
@@ -46,10 +46,6 @@
     display: flex;
     gap: 12px;
     justify-content: space-between;
-}
-
-#live-link .desc-live img {
-    margin-top: 4px;
 }
 
 #live-link .text-desc {
