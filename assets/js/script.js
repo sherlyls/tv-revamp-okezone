@@ -55,6 +55,9 @@ $(document).ready(function () {
     $("html").toggleClass("test");
     $(".burger-tv.expand").toggleClass("collapse");
   });
+  $('.ads-footer .close').on('click', function () {
+    $('.ads-footer').css("display", "none");
+  });
 });
 function sharelinkfacebook() {
   window.open(
