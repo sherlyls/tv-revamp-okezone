@@ -1,1 +1,60 @@
-@font-face {font-family: ArchivoBold;src: url(https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/font/ArchivoBold.ttf) }#live-link {background-color: #1b387b;margin: 16px 16px 0;padding: 11px 8px;border-radius: 4px;height: auto }#live-link.h-kanal {margin: 16px 11px 0 !important }#live-link.d-kanal {margin: 0 16px 20px !important }#live-link .title-live {display: flex;align-items: center;background-color: #cb1b29;width: max-content;gap: 4px;padding: 4px 8px;border-radius: 4px;margin-bottom: 8px }#live-link .text-live {color: #fff;font-size: 12px;line-height: 13.06px;font-family: ArchivoBold }#live-link .desc-live {display: flex;gap: 12px;justify-content: space-between }#live-link .desc-live div:nth-child(2) {position: relative;right: 9px;}#live-link .text-desc {font-family: ArchivoBold;color: #fff;font-size: 14px;line-height: 18px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical }
+@font-face {
+    font-family: ArchivoBold;
+    src: url(https://cdn.okezone.com/underwood/revamp/2023/tv/mobile/assets/font/ArchivoBold.ttf)
+}
+
+#live-link {
+    background-color: #1b387b;
+    padding: 11px 8px;
+    border-radius: 4px;
+    height: auto
+}
+
+#live-link.h-kanal {
+    margin: 16px 11px 0 !important
+}
+
+#live-link.d-kanal {
+    margin: 0 16px 20px !important
+}
+
+#live-link .title-live {
+    display: flex;
+    align-items: center;
+    background-color: #cb1b29;
+    width: max-content;
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px
+}
+
+#live-link .text-live {
+    color: #fff;
+    font-size: 12px;
+    line-height: 13.06px;
+    font-family: ArchivoBold
+}
+
+#live-link .desc-live {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between
+}
+
+#live-link .desc-live div:nth-child(2) {
+    position: relative;
+    right: 9px;
+}
+
+#live-link .text-desc {
+    font-family: ArchivoBold;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
+}
